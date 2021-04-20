@@ -1,0 +1,643 @@
+/* FONT */
+@font-face {
+    font-family: 'Azonix';
+    src: url('fonts/AzonixRegular.eot');
+    src: url('fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AzonixRegular.woff2') format('woff2'),
+        url('fonts/AzonixRegular.woff') format('woff'),
+        url('fonts/AzonixRegular.ttf') format('truetype'),
+        url('fonts/AzonixRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* FINE FONT */
+
+
+.navbar-nav {
+    font-family: 'Azonix', sans-serif;
+    font-size: 1.125rem;
+  }
+
+#logo {
+border: 1px solid gray;
+}
+
+.nav-item {
+    font-size: 14px;
+    padding: 0.3rem;
+}
+
+/* fine NAVBAR */
+
+.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url('imgs/img_principale.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  
+.masthead h1, h3 {
+    font-family: 'Azonix', sans-serif;
+    font-size: 2.2rem;
+  }
+
+.masthead a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.masthead a:hover {
+  text-decoration: underline;
+  color: #9a9a9a;
+}
+  
+  
+/* CARTE */
+
+.carte {
+    background-color: #191A19;
+}
+
+.card-body {
+    background-color: #bababa;  
+}
+
+.card-title{
+    color: black;
+}
+
+.carte h6 {
+    font-size: 90%;
+    font-style: normal;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+
+}
+
+.card {
+    border: none;
+}
+
+/* FINE CARTE  */
+ 
+/* INIZIO IMMAGINE GRID */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.snip1552 {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0.1rem;
+  min-width: 270px;
+  max-width: 355px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.snip1552 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1552 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1552 figcaption {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.snip1552 h3,
+.snip1552 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1552 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.snip1552 p {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  padding-left: 15px;
+  -webkit-transform: translateX(-25px);
+  transform: translateX(-25px);
+}
+
+.snip1552 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1552:hover > img,
+.snip1552.hover > img {
+  opacity: 0.1;
+}
+
+.snip1552:hover h3,
+.snip1552.hover h3,
+.snip1552:hover p,
+.snip1552.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+body {
+  background-color: #191A19;
+  text-align: center;
+}
+
+/* FINE IMMAGINE GRID */
+
+/* INIZIO TERZA PARTE */
+
+.immagine-logo-terzaParte {
+    width: 30%;
+    border: 1px solid #9a9a9a;
+}
+
+.terza-parte h2 {
+    font-family: 'Azonix';
+    color: white;
+    font-size: 1.5rem;
+    color: #9a9a9a;
+}
+
+.terza-parte h6 {
+  font-family: 'Azonix';
+  font-size: 1rem;
+  color: #9a9a9a;
+}
+
+.terza-parte p {
+    color: #9a9a9a;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.terza-parte h4 {
+    color: #9a9a9a;
+}
+
+/* FINE TERZA PARTE */
+
+/* INIZIO CONTATTI */
+
+.container-contact h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.container-bianco {
+    background-color: #9f9589;
+    height: 15rem;
+    width: 20rem;
+}
+
+.immagini-loghi-contatti {
+    width: 15%  
+}
+
+.container-contact h5 {
+    padding-top: 3%;
+
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-contact a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.container-contact h6 {
+  font-family: sans-serif;
+  color: #212529;
+  font-size: 1rem;
+  padding-top: 2%;
+}
+
+
+
+.container-contact {
+    height: 60vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url('imgs/foto-contatti-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+.bordo-destra {
+  border: 1px solid black;
+}
+
+/* PAGINA REFERENZE INIZIO */
+
+.masthead-2 {
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url('imgs/pagina-principale-referenze.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-2 h1 {
+  font-family: 'Azonix', sans-serif;
+  font-size: 2.2rem;
+
+}
+
+/* FINE PRIMA PAGINA REFERENCES */
+
+/* INIZIO GRID LOGO */
+
+.grid-logos h1 {
+font-family: 'Azonix';
+font-size: 2.2rem;
+}
+
+.body-2 {
+  background-color: white;
+}
+
+.img-logo {
+  width: 50%;
+  filter:grayscale(95%);
+}
+
+.img-logo:hover {
+  filter:grayscale(0);
+}
+
+.logo-brutto {
+  padding-top: 2.5%;
+}
+
+.logo-brutto2 {
+  padding-top: 2.5%;
+}
+
+.proloco {
+  height: 70%;
+}
+
+.logo-nero:hover {
+  filter:sepia(5);
+}
+
+.logo-nero-2:hover {
+  background: #f2f2f2;
+}
+
+/* FOOTER INIZIO */
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+  color: #9a9a9a;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.container-footer h4{
+  font-size: 1.6  rem;
+  color: #9a9a9a;
+  font-weight: 700;
+  font-style:italic;
+}
+
+.footer-icons a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: inherit;
+  color: #9a9a9a;
+}
+
+.footer-icons a:hover {
+  color: white;
+}
+
+.logo-footer{
+  border: 1px solid gray;
+}
+
+.line {
+  height: 2px;
+  background-color: #262626;
+}
+
+/* Footer referenza */
+.footer-referenza {
+  background-color: #191A19;
+}
+
+
+/* PAGINA CHI SIAMO INIZIO */
+
+.masthead-3 {
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url('imgs/pagina-principale-chisiamo.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-3 h1 {
+  font-family: 'Azonix';
+  font-size: 2.2rem;
+
+}
+
+.font-a {
+  font-family: 'Azonix';
+  color: #9a9a9a;
+}
+
+.colonna-chisiamo {
+  background-color: #191A19;
+}
+
+.colonna-chisiamo p {
+  font-size: 1rem;
+  color: #9a9a9a;
+  font-weight: lighter;
+}
+
+.immagine-team {
+  height: 20rem;
+}
+
+.colore-sfondo {
+  background-color: goldenrod;
+}
+
+.container-team {
+  background-color: white;
+}
+
+.colore-sfondo h3 {
+  color: white;
+}
+
+.container-team h5 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.container-team h6 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.container-team p {
+  font-size: 1rem;
+  font-weight: 200;
+
+}
+
+.linea-team {
+  height: 2px;
+  background: goldenrod;
+}
+
+.colore-sfondo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.colore-sfondo a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+
+/* PAGINA ARCHITETTURA  */
+.masthead-4 {
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url('imgs/pagina-principale-architettura.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-4 h1 {
+  font-family: 'Azonix';
+  font-size: 2.2rem;
+
+}
+
+.colonna-descrizione-ADI {
+  color: #9a9a9a;
+}
+
+/* CARDS */
+
+.foto-adi {
+  width: 370px;
+  height: 390px;
+}
+
+.container-grid-adi h4 {
+  color: #bababa;
+  font-size: 1.2rem;
+}
+
+.container-grid-adi p {
+  font-size: 0.8rem;
+  color: #9a9a9a;
+  font-weight: lighter;
+}
+
+/* FINE ARCHITETTURA */
+
+/* PAGINA DESIGN  */
+
+.masthead-5 {
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url('imgs/pagina-principale-design.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-5 h1 {
+  font-family: 'Azonix';
+  font-size: 2.2rem;
+}
+
+/* FINE DESIGN */
+
+/* INIZIO INGEGNERIA */
+
+.masthead-6 {
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: url('imgs/pagina-principale-ingegneria.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-6 h1 {
+  font-family: 'Azonix';
+  font-size: 2.2rem;
+}
+
+/* FINE INGEGNERIA */
+
+.foto-adid {
+  height: 85%;
+  width: 100%;
+}
+.foto-adid-brutta {
+  height: 75%;
+  width: 100%;
+}
+
+.foto-adii {
+  height: 400px;
+  width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO MEDIAQUERY */
+
+
+/* modificare piccolo */
+
+@media (max-width: 576px) {
+    .terza-parte p {
+        padding-bottom: 5%;
+    }
+    .container-contact {
+      min-height: 915px
+    }
+    .colonna-chisiamo p {
+      padding-top: 3rem;
+    }
+
+    .scritta-sotto-logoz {
+      padding-bottom: 10%;
+      padding-top: 0%;
+    }
+
+    .foto-adii {
+      width: 100%;
+    }
+}
+
+/* IPAD PRO */
+
+
+
+/* modificare grande */
+
+@media (min-width: 992px) {
+    .immagine-terza-parte {
+        padding-right: 3.5%;
+    }
+
+    .container-rimpicciolire {
+        padding-left: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+   
+  
