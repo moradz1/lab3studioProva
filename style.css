@@ -68,6 +68,16 @@ border: 1px solid gray;
 
 .card-title{
     color: black;
+    
+}
+
+.card-title a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
 }
 
 .carte h6 {
@@ -561,7 +571,7 @@ Hover/Focus: Veränderung bei Mauszeiger über dem Element
 
 /* Styles für "Mehr Informationen"-Link */
 .cc_container a,
-.cc_container a:visited {
+.cc_container a:visited { 
 	color: #00afea;
 }
 .cc_container a:hover,
